@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: rgba(6, 169, 6, 0.44);
+}
+/* Primer bloque */
+.primero {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  line-height: 150px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0 0 90px 0 white;
+}
+
+/* Segundo bloque */
+.segundo {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  margin-left: 10px;
+}
