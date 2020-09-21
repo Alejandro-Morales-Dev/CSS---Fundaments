@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  box-sizing: content-box;
+}
+/* Elementos clase */
+a[class] {
+  background-color: red;
+  display: block;
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+}
+/* Selección por descripción */
+a[href="http://www.google.com"]
+{
+  display: block;
+  margin: auto;
+  background-color: black;
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  color: white;
+}
+/* Hermano descendiente */
+.info2 + p {
+  text-align: center;
+  color: blue;
+}
