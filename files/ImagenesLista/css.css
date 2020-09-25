@@ -1,0 +1,38 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1e90ff;
+}
+/*  */
+ul,
+ol {
+  list-style: none;
+}
+ul {
+  list-style-image: url(/assets/img/yes.png);
+  font-size: 22px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+ol {
+  list-style-image: url(/assets/img/not.png);
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+/*  */
+section {
+  font-size: 0;
+}
+.img {
+  width: 30%;
+  height: 500px;
+  vertical-align: top;
+  font-size: 0;
+  object-fit: cover;
+  margin-left: 2.5%;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+  box-shadow: 0 0 6px 4px rgba(82, 82, 83, 0.568);
+}

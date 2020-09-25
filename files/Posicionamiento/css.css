@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.box {
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 10px;
+}
+.item {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  background-color: tomato;
+}
+.static {
+  background-color: aqua;
+  position: static;
+}
+.relative {
+  background-color: rgb(255, 30, 0);
+  position: relative;
+  right: 20px;
+}
+.absolute {
+  background-color: rgb(2, 0, 10);
+  /* position: absolute; */
+}
+.fixed {
+  background-color: rgb(214, 10, 233);
+  position: fixed;
+}
