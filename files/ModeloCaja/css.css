@@ -1,21 +1,19 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  box-sizing: content-box;
 }
 
 body {
-  background-color: rgba(6, 169, 6, 0.44);
+  background-color: rgba(0, 0, 0, 0.892);
 }
 /* Primer bloque */
 .primero {
-  background-color: black;
+  background-color: rgb(226, 184, 16);
   width: 150px;
   height: 150px;
   color: white;
   text-align: center;
-  line-height: 150px;
   margin: auto;
   margin-top: 20px;
   box-shadow: 0 0 90px 0 white;
@@ -23,10 +21,11 @@ body {
 
 /* Segundo bloque */
 .segundo {
-  background-color: white;
+  background-color: rgb(255, 20, 20);
   width: 200px;
   height: 200px;
   text-align: center;
   line-height: 200px;
-  margin-left: 10px;
+  margin: 2px 0 0 30px;
+  padding: 80px;
 }

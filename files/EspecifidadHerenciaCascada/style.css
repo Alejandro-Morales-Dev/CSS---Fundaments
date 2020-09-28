@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+/* HERENCIA */
+.title {
+  color: rgb(252, 138, 96);
+  font-size: 20px;
+  margin: 5px;
+}
+a {
+  color: inherit;
+}
+/* CASCADA */
+/* 
+
+Etiqueta - 1
+Clases y Pseudoclases - 10
+ID - 100
+Estilos en line - 1000
+Important - todo 
+
+*/
+.container {
+  height: 90px;
+  width: 90px;
+  background-color: rgba(252, 8, 191, 0.679);
+  margin: auto;
+  padding: 60px;
+}
