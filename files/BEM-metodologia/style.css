@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*  */
+.main-title {
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+.header {
+  background-color: rgba(0, 0, 255, 0.659);
+  height: 100px;
+}
+.main-menu {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-menu__item {
+  line-height: 5;
+}
+.main-menu__link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+/*  */
+.main-section {
+  background-color: red;
+  height: 180px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.main-articulo {
+  background-color: yellow;
+  width: 200px;
+  text-align: center;
+  line-height: 10;
+}
+.main-articulo1 {
+  background-color: rgb(12, 152, 245);
+  width: 200px;
+  text-align: center;
+  line-height: 10;
+}
